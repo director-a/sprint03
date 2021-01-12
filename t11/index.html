@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="">
+	<div class="buttons">
+		<button id="submit" type="submit">Add to cookies</button>
+		<button id="clear" onclick="removeCookies()">Clear cookies</button>
+	</div>
+ 
+ 	<div class="grey">
+ 	<span>text input:</span>
+ 		<textarea cols="" rows="6" id="task" placeholder="New task" type="text"></textarea>
+ 	</div>
+ </form>
+ 
+ <div class="grey">
+ <span>notes archive:</span>
+ <ul id="tasks"></ul>
+ </div>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
