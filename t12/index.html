@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Local Storage</h2>	
+<hr>
+
+<div class="buttons">
+    <button type="button" id="btnInsert">Add to storage</button>
+	<button type="button" id="btnClean" onclick="cleanStorage()">Clean the storage</button>
+</div>
+
+<div class="input grey ">
+	<span>Input</span>
+	<textarea cols="" rows="6" type="text" id="inpKey" placeholder="enter key..."></textarea>
+	<textarea type="text" id="inpValue" placeholder="enter value..."></textarea>
+</div>
+
+<div class="output grey">
+	<legend>Local storage</legend>
+	<div id="lsOutput"></div>
+</div>
+	
+	
+<script src="script.js"></script>
+</body>
+</html>
